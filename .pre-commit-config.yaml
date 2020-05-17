@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.5.0
+    rev: v3.0.1
     hooks:
       - id: check-case-conflict
       - id: check-ast
@@ -30,7 +30,7 @@ repos:
       - id: isort
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.4.1
+    rev: v2.4.3
     hooks:
       - id: pyupgrade
         args: ["--py36-plus"]
@@ -57,7 +57,7 @@ repos:
         files: \.rst$
 
   - repo: https://github.com/Trim21/poetry-check-lock.git
-    rev: v0.0.2
+    rev: v0.0.3
     hooks:
       - id: poetry-check-lock
 
